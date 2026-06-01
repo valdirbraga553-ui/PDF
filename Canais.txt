@@ -1,0 +1,129 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://fivetv.xyz/logos/tntseries.png" group-title="Filmes & Séries",TNT Séries
+https://4br.me/0eICMY
+
+#EXTINF:-1 tvg-logo="https://fivetv.xyz/logos/tooncast.png" group-title="Canais Infantil",Tooncast
+https://origin-fast.b-cdn.net/TOONCAST_TK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://playertv.net/wp-content/uploads/2024/04/globo-300x169.webp" group-title="Canais Aberto",Globo Bahia 
+https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:0 type="stream" epg-data="2609" group-title="Canais Aberto" aspect-ratio="16:9" tvg-country="BR" size="Big", Tv Novo Tempo
+https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="5104" group-title="Canais Aberto" aspect-ratio="16:9" tvg-country="L" size="Medium", TV Feliz
+https://video01.logicahost.com.br/tvfeliz/tvfeliz/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="1031" group-title="Canais Aberto" aspect-ratio="16:9" size="Medium", Globo
+https://image-storage-31.imgcontent.xyz/live/estudiantes-x-flamengo/index.m3u8
+
+
+#EXTINF:0 type="stream" channelId="2438" group-title="Canais Aberto" aspect-ratio="16:9" tvg-country="BR" size="Small", Rede Brasil-TBO(MT)
+https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="5098" group-title="Canais Aberto" aspect-ratio="16:9" tvg-logo="https://drive.google.com/uc?id=1spDgXVykik8n8cq6kBbXOpuQBzS87_Ks&export=download",SBT
+https://4br.me/sbtweb
+
+#EXTINF:0 type="stream" channelId="2479" group-title="Canais Aberto" logo="https://fivetv.xyz/logos/sbt.png" aspect-ratio="16:9" size="Small", SBT Bahia
+https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://embedtv.digital/assets/images/cultura.png" group-title="Canais Aberto",Tv Cultura_Pará
+http://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://embedtv.digital/assets/images/cultura.png" group-title="Canais Aberto",Catve
+https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2454" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", Futura(CE)
+http://stmv1.transmissaodigital.com/ronald6259/ronald6259/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="-1" group-title="Canais Aberto" logo="https://yt3.googleusercontent.com/ytc/AL5GRJXIpsIkydaZKyaBkpiTWSm6CNUEFXfE-X0GkIPdSw=s100-c-k-c0x00ffffff-no-rj" aspect-ratio="16:9" size="Small", Tv Metrópole
+https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="2613" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", Rede TV!-Tv Pampa
+https://59f1cbe63db89.streamlock.net:1443/tvpampa/_definst_/tvpampa/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="5085" group-title="Canais Aberto" logo="https://i.imgur.com/3395A2h.png" aspect-ratio="16:9" size="Small", Band-Tv Arapuan
+https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
+
+
+#EXTINF:0 type="stream" channelId="2466" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", Tv Brasil-Tv RBA
+https://tv02.zas.media:1936/rbatv/rbatv/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="2466" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", Tv Brasil-Web Tv
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+
+#EXTINF:0 type="stream" channelId="1455" group-title="Canais Documentarios" size="Medium", History
+https://fazoeli.shop/fontes/embedtv/history.m3u8
+
+#EXTINF:0 type="stream" channelId="1201" group-title="Canais Documentarios" aspect-ratio="16:9" size="Small", History 2
+https://fazoeli.shop/fontes/embedtv/history2.m3u8
+
+#EXTINF:0 type="stream" channelId="5073" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", RBA TV-Band Pará
+https://5cf4a2c2512a2.streamlock.net:443/rbatv/rbatv/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="41" group-title="Canais Infantil" logo="https://fivetv.xyz/logos/nick.png" aspect-ratio="16:9" size="Medium", NickToons
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="40" group-title="Canais Infantil" logo="https://fivetv.xyz/logos/cartoon.png" aspect-ratio="16:9" size="Medium", Cartoon Network
+https://01-mcteteu.shop/secret_key/d824fb00bfe481308b2c0c1715dee222.m3u8
+
+#EXTINF:0 type="stream" channelId="-1" group-title="Rádio" logo="https://i.ytimg.com/vi/COu8oeLGeRA/hqdefault.jpg" aspect-ratio="16:9" subtitles="br" size="Small", Rádio Novo Tempo
+http://stream.novotempo.com:1935/radio/smil:rntPortoAlegreRS.smil/playlist.m3u
+
+#EXTINF:0 type="stream" channelId="-1" group-title="Rádio" logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5A9chh53dOM9C0g1UAtwVq-Nyuax3dLdMbpjw4wZrzo5_6A4YfwI8L2Spv7vzixYL0miZph5eEXP1Klq1H3_mqT661n0MxKjZsFV2CqFfDrXbAASTLGQGWuDbB9w_r7yffLLNIJql9EbLvNsJSD7utFCZXzdujpgre0l_1aFoKlM4rd2iDsVwV7dNmQ/w576/Photo_1681028417627.png" aspect-ratio="16:9" subtitles="https://stream.zeno.fm/am6c7yjjh82vv" tvg-country="pt" size="Small", Rádio Louvor JA-IASD D2
+https://stream.zeno.fm/am6c7yjjh82vv
+
+#EXTINF:0 type="stream" channelId="1031" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", Record Tv-MT
+https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="1031" group-title="Canais Aberto" aspect-ratio="16:9" size="Small", Record TV-MT2
+https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
+
+#EXTINF:0 type="stream" channelId="2562" group-title="Canais Aberto" size="Medium", Record Tv (RN)
+https://video08.logicahost.com.br/portaldatropical02/portaldatropical02/playlist.m3u8
+
+#EXTINF:0 type="stream" tvg-id="AE.br" group-title="Variedades" size="Medium", A&E
+https://fazoeli.shop/fontes/embedtv/ae.m3u8
+
+#EXTINF:0 type="stream" channelId="2593" group-title="Variedades" size="Medium", Prime Box
+https://mycdn.delivery/primeboxbrazil/index.m3u8
+
+#EXTINF:0 type="stream" channelId="237" group-title="Variedades" size="Medium", MTV Brasil
+https://d1r94zrwa3gnlo.cloudfront.net/livestore103/stream/hls/287/287.m3u8
+
+#EXTINF:0 type="stream" channelId="64" group-title="Filmes & Séries" size="Medium", Cine Canal
+https://mycdn.delivery/cinecanal/index.m3u8
+
+#EXTINF:0 type="stream" channelId="2459" group-title="Canais Aberto" size="Medium", Tv Diário
+https://d1zpubcqwsvgqw.cloudfront.net/out/v1/d33c00c8ecbe4aa9b7e834e607fbbacb/index.mpd
+
+#EXTINF:0 type="stream" channelId="322" group-title="Canais Infantil" logo="https://embedtv.digital/assets/images/nickjr.png" size="Medium", Nick Online.
+https://x1co.com.br/hls/stream.m3u8
+
+#EXTINF:0 type="stream" channelId="1200" group-title="Variedades" size="Medium", Lifetime
+https://cdn-3.nxplay.com.br/LIFE_TIME_TK/index.m3u8
+
+#EXTINF:0 type="stream" channelId="2572" group-title="Variedades" size="Medium", Arte 1
+https://brflu.walk-tv.com/5791/index.m3u8
+
+#EXTINF:0 type="stream" channelId="-1" group-title="Variedades" logo="https://fivetv.xyz/logos/viva.png", Viva
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/f39bb2be4eb7ee3d1b05aa8f2db99c2f/viva.m3u8
+
+#EXTINF:0 type="stream" tvg-id="CNNBrasil.br" group-title="Jornalismo" size="Medium", CNN Brasil
+https://video01.soultv.com.br/cnnbrasil/cnnbrasil/playlist.m3u8
+#EXTINF:0 type="stream" Id="2456" group-title="Jornalismo" size="Medium", Record News
+https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
+#EXTINF:0 type="stream" channelId="2573" group-title="Jornalismo" size="Medium", Band News
+https://cdn-3.nxplay.com.br/BAND_NEWS_TK/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" group-title="Jornalismo" logo="https://listaiptv.gratis/wp-content/uploads/2023/06/Jpnewstv2022.webp" tvg-country="Br" size="Medium", Jovem Pan News
+https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://embedtv.digital/assets/images/24h.png" group-title="24 Horas",24h_Todo Mundo Odeia o Chris
+https://fazoeli.shop/fontes/embedtv/24h_odeiachris.m3u8
+
+#EXTINF:-1 tvg-logo="https://embedtv.digital/assets/images/24h.png" group-title="24 Horas",24h Dragon ball Z
+https://fazoeli.shop/fontes/embedtv/24h_dragonball.m3u8
+
+#EXTM3U
+#EXTINF:0 type="video" channelId="-1" group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,01-Episódio(EP01-T01)
+https://cdn-s01.mywallpaper-4k-image.net/stream/d/dragon-ball-daima-dublado/01.mp4/index.m3u8
+#EXTINF:0 type="video" channelId="-1" group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,02-Episódio(EP02 T01)
+https://cdn-s01.mywallpaper-4k-image.net/stream/d/dragon-ball-daima-dublado/02.mp4/index.m3u8
