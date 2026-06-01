@@ -122,4 +122,6 @@ https://fazoeli.shop/fontes/embedtv/24h_odeiachris.m3u8
 #EXTINF:-1 tvg-logo="https://embedtv.digital/assets/images/24h.png" group-title="24 Horas",24h Dragon ball Z
 https://fazoeli.shop/fontes/embedtv/24h_dragonball.m3u8
 
+#EXTINF:-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://i.pinimg.com/736x/f2/5e/fa/f25efa779e0a0e9475e8616920aa1f1e.jpg" ,07-Episódio
+https://dn721800.ca.archive.org/0/items/Instrumento/OCNGCRODFUT01EP07.mp4
 
