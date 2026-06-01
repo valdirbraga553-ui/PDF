@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://fivetv.xyz/logos/tntseries.png" group-title="Filmes & Séries",TNT Séries
-https://4br.me/0eICMY
+https://origin-fast.b-cdn.net/TNT_SERIES_TK/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://fivetv.xyz/logos/tooncast.png" group-title="Canais Infantil",Tooncast
 https://origin-fast.b-cdn.net/TOONCAST_TK/index.m3u8
@@ -62,7 +62,7 @@ https://5cf4a2c2512a2.streamlock.net:443/rbatv/rbatv/playlist.m3u8
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 
 #EXTINF:0 type="stream" channelId="40" group-title="Canais Infantil" logo="https://fivetv.xyz/logos/cartoon.png" aspect-ratio="16:9" size="Medium", Cartoon Network
-https://01-mcteteu.shop/secret_key/d824fb00bfe481308b2c0c1715dee222.m3u8
+https://origin-fast.b-cdn.net/CARTOON_NETWORK_TK/index.m3u8
 
 #EXTINF:0 type="stream" channelId="-1" group-title="Rádio" logo="https://i.ytimg.com/vi/COu8oeLGeRA/hqdefault.jpg" aspect-ratio="16:9" subtitles="br" size="Small", Rádio Novo Tempo
 http://stream.novotempo.com:1935/radio/smil:rntPortoAlegreRS.smil/playlist.m3u
