@@ -1,0 +1,13 @@
+#EXTM3U size="medium"
+#EXTINF:-1 type="playlist" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgINqPAUJFRVy-pcWl44PggcLB2lfY1awYnuPzCAQgx_vbPWTWOP8eghSwcnfXqifVHNKf5xXI5gjhQSPxUxCJdgwcf13rDGXp44CHqEO4Zs2Tndi0OoieFeAJDn_JHmorgUsgR7w_RCUTaLRXRNX8_Ha7RQDeAfJyjNvHOHLLQkC6j_0CBvlb6A8_R1WBl/s404/1694302570131.png" description="Quantidade:57",PobreFlix
+https://4br.me/ktv_filmes
+
+
+#EXTINF:-1 type="playlist"  tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc1DWLffTJPUmG0AWEdb0CFJjNgPEvBQKQ4opOsKNjKKO-RUZ1yfE3IFM4GY-Ui7-EYJOkzQ203UoInT-sch7HxyO0o2j91RhVhER9i50Lx2mMXndgp8B51E1bsFiiXcQhfQ75xIQVUCXOA2-z84hSkcO8Ov4VtY_JaRD4OPYFz5NvkfT1IwyLQrkL0Q/s600/lista-iptv-gratis.jpg" description="Quantidade:52",Canais De Tv
+https://4br.me/ktv_canais
+
+#EXTINF:-1 type="playlist" tvg-id="-1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/330px-Pluto_TV_logo_2024.svg.png" description="Canais Variados",Pluto Tv
+https://4br.me/pluto_tv_iptv
+
+
+
