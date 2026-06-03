@@ -1,8 +1,8 @@
 
 #EXTM3U
-#EXTINF:0 type="video" channelId="-1" group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,01-Episódio(EP01-T01)
+#EXTINF:-1 group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,01-Episódio(EP01-T01)
 https://cdn-s01.mywallpaper-4k-image.net/stream/d/dragon-ball-daima-dublado/01.mp4/index.m3u8
-#EXTINF:0 type="video" channelId="-1" group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,02-Episódio(EP02 T01)
+#EXTINF:-1 group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,02-Episódio(EP02 T01)
 http://archive.org/download/Instrumento/dbd02.mp4
 #EXTINF:0 type="video" channelId="-1" group-title="Anime:Dragon Ball Daima" logo="https://i.pinimg.com/474x/73/65/38/73653854f98007125e9015fd6475fe70.jpg"  ,03-Episódio(EP03-T01)
 http://archive.org/download/Instrumento/dbd03.mp4
