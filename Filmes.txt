@@ -90,7 +90,7 @@ http://archive.org/download/Instrumento/PANCNFLRST1.mp4
 https://p2.animescomix.com/stream/filmes-dublado/d/dragon-ball-filmes-dublado/dragon-ball-super-filme-02.mp4
 
 #EXTINF:0 type="video" channelId="-1" logo="https://i.ytimg.com/vi/IRirqw082XI/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2lNMuZvEtUZJUzNBnL1j_4Qolmw" size="Medium", Whindersson Nunes em Proparoxitona ©2017
-https://ia600200.us.archive.org/18/items/Instrumento/WHINDERSSON%20NUNES%20em%20PROPAROX%C3%8DTONA%20%28SHOW%20COMPLETO%29%20%5BIRirqw082XI%5D.mp4
+https://archive.org/download/Instrumento/WHINDERSSON%20NUNES%20em%20PROPAROX%C3%8DTONA%20%28SHOW%20COMPLETO%29%20%5BIRirqw082XI%5D.mp4
 
 #EXTINF:0 type="video" channelId="-1" logo="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/94/12/17/20304560.jpg" size="Medium", O Segredo Dos Animais ©2006
 https://archive.org/download/a-era-do-gelo-1-2-3-4/O%20Segredo%20dos%20Animais%20%282006%29%20720p%20Dual%20JohnL.mkv
@@ -228,7 +228,7 @@ https://dn720401.ca.archive.org/0/items/Os-Trapalhoes/Os%20Trapalh%C3%B5es/1970%
 https://dn720401.ca.archive.org/0/items/Os-Trapalhoes/Os%20Trapalh%C3%B5es/1972%20-%20Ali%20Bab%C3%A1%20e%20os%2040%20Ladr%C3%B5es.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Filmes Nacional" logo="https://i.pinimg.com/474x/6b/66/74/6b6674b835a8e33983e578a1da75c223.jpg" size="Small" background="#4b1de1", Cabras da Peste ©2021
-https://ia600200.us.archive.org/18/items/Instrumento/CBRDPSTE.mp4
+https://archive.org/download/Instrumento/CBRDPSTE.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Filmes Animação" logo="https://i.pinimg.com/474x/02/cb/6c/02cb6cfe1edd2f6abf25063312f597ad.jpg" size="Small",Por Água Abaixo ©2006
 https://archive.org/download/a-era-do-gelo-1-2-3-4/Por%20%C3%81gua%20Abaixo%20%282006%29.mkv
@@ -272,29 +272,29 @@ https://p1.animescomix.com/stream/filmes-dublado/d/dragon-ball-filmes-dublado/dr
 https://piroplay.xyz/cdn/hls/5f839db347d13c2c6d3f42e3d4208d28/master.txt.m3u8
 
 #EXTINF:0 type="video" channelId="-1" group-title="Coleção:DeadPool" logo="https://br.web.img2.acsta.net/c_310_420/pictures/16/01/28/19/55/412201.jpg" description="©2023" size="Medium",DeadPool ©2016
-https://ia800200.us.archive.org/18/items/Instrumento/DEADP.mp4
+https://archive.org/download/Instrumento/DEADP.mp4
 
 (series)
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img75.tokyvideo.com/videos/703/703624/thumbs/thumbs_0001.jpg" ,01-Epsódio
-https://ia600200.us.archive.org/18/items/Instrumento/OCNGCRODFUT01EP01.mp4
+https://archive.org/downy/Instrumento/OCNGCRODFUT01EP01.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img75.tokyvideo.com/videos/703/703676/thumbs/thumbs_0001.jpg" ,02-Episódio
-https://ia800200.us.archive.org/18/items/Instrumento/OCNGCRODFUT01EP02.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP02.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img76.tokyvideo.com/videos/706/706425/thumbs/thumbs_0003.jpg" ,03-Episódio
-https://dn721800.ca.archive.org/0/items/Instrumento/OCNGCRODFUT01EP03.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP03.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img77.tokyvideo.com/videos/711/711718/thumbs/thumbs_0004.jpg" ,04-Episódio
-https://dn721800.ca.archive.org/0/items/Instrumento/OCNGCRODFUT01EP04.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP04.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img79.tokyvideo.com/videos/722/722512/thumbs/thumbs_0010.jpg" ,05-Episódio
-https://dn721800.ca.archive.org/0/items/Instrumento/OCNGCRODFUT01EP05.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP05.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://i.pinimg.com/736x/f2/5e/fa/f25efa779e0a0e9475e8616920aa1f1e.jpg" ,06-Episódio
-https://ia800200.us.archive.org/18/items/Instrumento/OCNGCRODFUT01EP06.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP06.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://i.pinimg.com/736x/f2/5e/fa/f25efa779e0a0e9475e8616920aa1f1e.jpg" ,07-Episódio
-https://dn721800.ca.archive.org/0/items/Instrumento/OCNGCRODFUT01EP07.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP07.mp4
 
 INVENCÍVEL 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:Invencível ©2021" logo="https://media.fstatic.com/HUe6ZyVj9p0E1dzy6gWtRo3Zm6U=/210x312/smart/filters:format(webp)/media/movies/covers/2020/10/cats_6rsEUv8.jpg"  ,01-Episódio(EP01-T01)
