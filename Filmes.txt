@@ -198,10 +198,10 @@ https://xn--kcksk7a2bl5le7b6doc1h3f.com/cdn/hls/4509ea467e721e4b31d1604bc1611486
 https://archive.org/download/Instrumento/DEADPEWLVRNE.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Coleção:DeadPool" logo="https://br.web.img3.acsta.net/c_310_420/pictures/18/04/19/15/31/2232385.jpg" size="Medium", DeadPool 2 ©2018
-https://ia600200.us.archive.org/18/items/Instrumento/DEADP2.mp4
+https://archive.org/download/Instrumento/DEADP2.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Filmes Nacional" logo="https://i.pinimg.com/736x/b8/93/7a/b8937a4c7c73b3fd2f138faef566299e.jpg" size="Medium", O Shaolin do Sertão ©2016
-https://ia600200.us.archive.org/18/items/Instrumento/OSHLINDSRT.mp4
+https://archive.org/download/Instrumento/OSHLINDSRT.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Filmes Terror" logo="https://image.tmdb.org/t/p/w300/3Awd26Ktx3E9VuIcHkRcIIIp9G0.jpg" size="Medium", Doce Vingança ©2010
 https://archive.org/download/doce-vinganca-2010-bluray-720p-dublado/Doce%20Vingan%C3%A7a%202010%20Bluray%20720p%20Dublado.ia.mp4
