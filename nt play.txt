@@ -1,0 +1,33 @@
+#EXTM3U
+#EXTINF:0 type="video" channelId="-1" group-title="NT Play-Louvor" logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsITBnhMNSp6v27JadRQ8Hl51-HMIbmon7URG72mjxxc00Tt79H5UEcCxeX5Y2GuNstmKww_XIn7k1_f5IHcQwTJOXd6co1PCCNFU4Jq0T2eMMUbr54rBYR8_J3zhB9OUOUkdiejH84Y9-M1JKBb1WYitPsfXgEmnIamNGMctE-lvy8kTQUNPT-zYqPw/s400/457788-456827.jpg" aspect-ratio="16:9" size="Medium", Laura Morena-Mais Perto
+https://stream.vod.ntplay.com:443/ntplay/smil:457796.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="NT Play-Louvor" logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTSNsVqMjKG5suBBD-5yv3frDuYCBNZdpvSKj4stM3laMuDc6om8zR8DgBeffowxc-PI9uRtBMVFYsmojlW1tZT6L8h17l1b_CwjEmLr1yhXwVYHGjB44Q--hx6gXm3UvbZfIx-ONCRZgJOtE6JT2fit59z46G-P1PYwRKYx8iU71q16WOw8yXiu86Cw/w280-h400/476323-520098.jpg" aspect-ratio="16:9" size="Medium", DVD-Amor e Graça
+https://stream.vod.ntplay.com:443/ntplay/smil:476410.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Filmes NT Play" logo="https://i.ytimg.com/vi/kcBseqosmfI/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0yNnydFOqbh8f6AzQ-bcS4V14Yw" aspect-ratio="16:9" size="Small", Como Tudo Começou
+https://stream.vod.ntplay.com:443/ntplay/smil:465130.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Jesus,Restaurador Da Vida" logo="https://i.ytimg.com/vi/00v8QiZfVuY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsq-b_Db-nfDXwi92BgK8ZSj-a8g" aspect-ratio="16:9" size="Small", 01-Jesus e As Escrituras Sagradas
+https://stream.vod.ntplay.com:443/ntplay/smil:432416.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Jesus,Restaurador Da Vida" logo="https://i.ytimg.com/vi/00v8QiZfVuY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsq-b_Db-nfDXwi92BgK8ZSj-a8g" aspect-ratio="16:9" size="Small", 02-Jesus e o Amor Divino
+https://stream.vod.ntplay.com:443/ntplay/smil:432870.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Jesus,Restaurador Da Vida" logo="https://i.ytimg.com/vi/00v8QiZfVuY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsq-b_Db-nfDXwi92BgK8ZSj-a8g" aspect-ratio="16:9" size="Small", 03-Jesus e a Restauração Do Bem
+https://stream.vod.ntplay.com:443/ntplay/smil:432872.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Jesus,Restaurador Da Vida" logo="https://i.ytimg.com/vi/00v8QiZfVuY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsq-b_Db-nfDXwi92BgK8ZSj-a8g" aspect-ratio="16:9" size="Small", 04-Jesus e a Oração
+https://stream.vod.ntplay.com:443/ntplay/smil:432873.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Jesus,Restaurador Da Vida" logo="https://i.ytimg.com/vi/00v8QiZfVuY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsq-b_Db-nfDXwi92BgK8ZSj-a8g" aspect-ratio="16:9" size="Small", 05-Jesus e a Salvação
+https://stream.vod.ntplay.com:443/ntplay/smil:432874.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Jesus,Restaurador Da Vida" logo="https://i.ytimg.com/vi/00v8QiZfVuY/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsq-b_Db-nfDXwi92BgK8ZSj-a8g" aspect-ratio="16:9" size="Small", 06-Jesus e a Intercessão
+https://stream.vod.ntplay.com/ntplay/smil:432876.smil/playlist.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Filmes NT Play" logo="https://i.ytimg.com/vi/oPHgj5xgyGQ/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrJBoXL3xCcjex2fcOb-0X5_lqHA" aspect-ratio="16:9" size="Small", O Métado De Cristo-Uma História De Missão
+https://stream.vod.ntplay.com:443/ntplay/smil:480160.smil/chunklist_b4128000_slpor.m3u8
+
+#EXTINF:0 type="video" channelId="-1" group-title="Filmes NT Play" logo="https://i.ytimg.com/vi/iysQ3fyFt5Q/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDacrkIHrnBnzFYzx55_Rp78oE7pw" aspect-ratio="16:9" size="Small", A Igreja Do Sonho De Deus
+https://stream.vod.ntplay.com:443/ntplay/smil:480162.smil/chunklist_b4128000_slpor.m3u8
