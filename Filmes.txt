@@ -75,7 +75,7 @@ https://p1.animescomix.com/stream/animes-dublado/d/dragon-ball-z-dublado/09.mp4
 https://p1.animescomix.com/stream/animes-dublado/d/dragon-ball-z-dublado/10.mp4
 
 #EXTINF:0 type="video" logo="https://br.web.img3.acsta.net/c_310_420/pictures/21/09/28/19/54/1048011.jpg" size="Medium", Pânico Na Floresta 3 ©2009
-https://dn721800.ca.archive.org/0/items/Instrumento/PANCNFLRST3.mp4
+https://archive.org/download/Instrumento/PANCNFLRST3.mp4
 
 #EXTINF:0 type="video" channelId="-1" logo="https://cenasdecinema.com/wp-content/uploads/2013/06/Panico-na-floresta-4_poster.jpg" size="Medium", Panico Na Floresta 4 ©2011 
 https://archive.org/download/Instrumento/PANCNFLRST4.mp4
@@ -276,7 +276,7 @@ https://archive.org/download/Instrumento/DEADP.mp4
 
 (series)
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img75.tokyvideo.com/videos/703/703624/thumbs/thumbs_0001.jpg" ,01-Epsódio
-https://archive.org/downy/Instrumento/OCNGCRODFUT01EP01.mp4
+https://archive.org/download/Instrumento/OCNGCRODFUT01EP01.mp4
 
 #EXTINF:0 type="video" channelId="-1" group-title="Série:O Cangaceiro Do Futuro ©2022" logo="https://img75.tokyvideo.com/videos/703/703676/thumbs/thumbs_0001.jpg" ,02-Episódio
 https://archive.org/download/Instrumento/OCNGCRODFUT01EP02.mp4
