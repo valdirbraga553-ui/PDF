@@ -58,22 +58,6 @@ border-radius: 10px;
 </center>
 
 </body>
-<script>
-  function playVideo(src) {
-    const player = document.getElementById("player");
-    const tipo = document.getElementById("tipoVideo");
-
-    // Detecta se é TV ao vivo (sem extensão ou m3u8)
-    if (src.includes("m3u8") || src.includes("live")) {
-      tipo.innerText = "🔴 TV Ao Vivo";
-    } else {
-      tipo.innerText = "🎬 Arquivo";
-    }
-
-    player.src = src;
-    player.load();
-    player.play();
-  }
-</script>
+<script src="https://htmlpreview.github.io/?https://raw.githubusercontent.com/valdirbraga553-ui/PDF/refs/heads/main/playerjs.js" type="text/javascript"></script>
 </html>
   
