@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Estilo Spotify</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: #800000;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .player {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .cover {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    h3 {
+      margin: 15px 0 5px;
+    }
+
+    .controls {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      padding: 8px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+
+    li:hover {
+      background-color: #282828;
+    }
+
+    .playing {
+      background-color: #1db954;
+      color: black;
+      font-weight: bold;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<style="background-color:#000033;color:#FFFFFF;">
+<body>
+
+  <div class="player">
+<img id="cover" src="https://via.placeholder.com/300x300?text=Capa" class="cover">
+    <h3 id="title">Título da música</h3>
+
+    <audio id="audio" controls autoplay></audio>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script>
+    const tracks = [
+      {
+        title: "01-Lugar de Adoração",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Lugar%20de%20Adora%C3%A7%C3%A3o%20%EF%BD%9C%20R%C3%A9gis%20Danese%20-%20Ao%20Vivo%20%5BwbTD7g87gFI%5D.m4a",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/IMG_20251026_214636.png"
+      },
+{
+        title: "02-Não Dá Pra Viver Sem Ti",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/N%C3%A3o%20D%C3%A1%20Pra%20Viver%20Sem%20Ti%20%EF%BD%9C%20R%C3%A9gis%20Danese%20-%20Ao%20Vivo%20%5BU9q9tCL6L8g%5D.m4a",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/IMG_20251026_214636.png"
+      },
+{
+        title: "03-A Tua Real Presença(ft.Kelly Danese)",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/A%20Tua%20Real%20Presen%C3%A7a%20%EF%BD%9C%20Regis%20Danese%20%26%20Kelly%20Danese%20-%20Ao%20Vivo%20%5BHwbjNnhhm3M%5D.m4a",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/IMG_20251026_214636.png"
+      },
+{
+        title: "04-Eu Quero Queimar Por Ti",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Eu%20Quero%20Queimar%20Por%20Ti%20%EF%BD%9C%20R%C3%A9gis%20Danese%20-%20Ao%20Vivo%20%5B6YlrVQtW3B0%5D.m4a",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/IMG_20251026_214636.png"
+      },
+{
+        title: "💿Lançamento ©2023",
+        file: "",
+        cover: ""
+      }
+      
+      // Adicione mais faixas se quiser
+    ];
+
+    const audio = document.getElementById("audio");
+    const playlistEl = document.getElementById("playlist");
+    const titleEl = document.getElementById("title");
+    const coverEl = document.getElementById("cover");
+
+    let current = 0;
+
+    function loadTrack(index) {
+const track = tracks[index];
+      audio.src = track.file;
+      titleEl.textContent = track.title;
+      coverEl.src = track.cover;
+      highlightCurrent(index);
+    }
+
+    function highlightCurrent(index) {
+      [...playlistEl.children].forEach((li, i) => {
+        li.className = i === index ? "playing" : "";
+      });
+    }
+
+    function buildPlaylist() {
+      tracks.forEach((track, index) => {
+        const li = document.createElement("li");
+        li.textContent = track.title;
+        li.onclick = () => {
+          current = index;
+          loadTrack(current);
+          audio.play();
+        };
+        playlistEl.appendChild(li);
+      });
+    }
+
+    audio.addEventListener("ended", () => {
+      current = (current + 1) % tracks.length;
+      loadTrack(current);
+      audio.play();
+    });
+
+    buildPlaylist();
+    loadTrack(current);
+  </script>
+
+</body>
+</html>

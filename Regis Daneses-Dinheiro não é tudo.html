@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Estilo Spotify</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: #800000;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .player {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .cover {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    h3 {
+      margin: 15px 0 5px;
+    }
+
+    .controls {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      padding: 8px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+
+    li:hover {
+      background-color: #282828;
+    }
+
+    .playing {
+      background-color: #1db954;
+      color: black;
+      font-weight: bold;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<style="background-color:#000033;color:#FFFFFF;">
+<body>
+
+  <div class="player">
+<img id="cover" src="https://via.placeholder.com/300x300?text=Capa" class="cover">
+    <h3 id="title">Título da música</h3>
+
+    <audio id="audio" controls autoplay></audio>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script>
+    const tracks = [
+      {
+        title: "01-Conte Os Teus Sonhos Só Pra Deus",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20Danese%20-%20CONTE%20OS%20TEUS%20SONHOS%20SO%CC%81%20PRA%20DEUS%20%7BVi%CC%81deoclipe%20Oficial%7D%20%5BWUYEuPz-Czc%5D.opus",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "02-Não Sei Viver Sem Ti",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/N%C3%A3o%20Sei%20Viver%20Sem%20Ti%20%5B4I8Ip2kayJo%5D.m4a",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "03-Quero Consertar",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Quero%20Consertar%20%5BA7BXgkhSHx8%5D.m4a",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "04-Dinheiro Não é Tudo",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20Danese%20-%20DINHEIRO%20NA%CC%83O%20E%CC%81%20TUDO%20%7BVideoclipe%20Oficial%7D%20%5BCtEREdhGjk4%5D.m4a",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "05-Eu Decido Adorar",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20Danese%20-%20EU%20DECIDO%20ADORAR%20%7BVi%CC%81deoclipe%20Oficial%7D%20%5B8edmyiMl06E%5D.m4a",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "06-Quem Sou Eu Para Julgar",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20Danese%20-%20QUEM%20SOU%20EU%20PARA%20JULGAR%20%20%7BVideoclipe%20Oficial%7D%20%5BYpvevrCYjpk%5D.m4a",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "07-Vamos Adorar",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Vamos%20Adorar%20%5BjquSkbwPOWw%5D.m4a",
+        cover: "https://ia800907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20danese-dinheiro%20n%C3%A3o%20e%20tudo_capa.png"
+      },
+{
+        title: "💿Lançamento ©2019",
+        file: "",
+        cover: ""
+      }
+      
+      // Adicione mais faixas se quiser
+    ];
+
+    const audio = document.getElementById("audio");
+    const playlistEl = document.getElementById("playlist");
+    const titleEl = document.getElementById("title");
+    const coverEl = document.getElementById("cover");
+
+    let current = 0;
+
+    function loadTrack(index) {
+const track = tracks[index];
+      audio.src = track.file;
+      titleEl.textContent = track.title;
+      coverEl.src = track.cover;
+      highlightCurrent(index);
+    }
+
+    function highlightCurrent(index) {
+      [...playlistEl.children].forEach((li, i) => {
+        li.className = i === index ? "playing" : "";
+      });
+    }
+
+    function buildPlaylist() {
+      tracks.forEach((track, index) => {
+        const li = document.createElement("li");
+        li.textContent = track.title;
+        li.onclick = () => {
+          current = index;
+          loadTrack(current);
+          audio.play();
+        };
+        playlistEl.appendChild(li);
+      });
+    }
+
+    audio.addEventListener("ended", () => {
+      current = (current + 1) % tracks.length;
+      loadTrack(current);
+      audio.play();
+    });
+
+    buildPlaylist();
+    loadTrack(current);
+  </script>
+
+</body>
+</html>
