@@ -1,67 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Whindersson Nunes - Proparoxítona</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    * { margin: 0; padding: 0; }
-    body { 
-        background: #0f0f0f url('https://i.ytimg.com/vi/IRirqw082XI/maxresdefault.jpg') no-repeat center center fixed;
-        background-size: cover;
-        font-family: Roboto, Arial;
-    }
-    body::before {
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        z-index: -1;
-    }
-    #player {
-        width: 100%;
-        max-width: 1200px;
-        height: 56.25vw;
-        max-height: 675px;
-        margin: 40px auto;
-        box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    }
-</style>
-</head>
-<body>
-
-<div id="player"></div>
-
-<script src="<script type="module" src="https://cdn.jsdelivr.net/npm/@videojs/html/cdn/video.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@videojs/html/cdn/video.js"></script>
 
 <video-player>
   <video-skin>
     <video src="https://archive.org/download/Instrumento/WHINDERSSON%20NUNES%20em%20PROPAROX%C3%8DTONA%20%28SHOW%20COMPLETO%29%20%5BIRirqw082XI%5D.mp4" playsinline></video>
   </video-skin>
-</video-player>"></script>
-
-<script>
-    var player = new Playerjs({
-        id: "player",
-        file: "https://archive.org/download/Instrumento/WHINDERSSON%20NUNES%20em%20PROPAROX%C3%8DTONA%20%28SHOW%20COMPLETO%29%20%5BIRirqw082XI%5D.mp4",
-        poster: "https://i.ytimg.com/vi/IRirqw082XI/maxresdefault.jpg",
-        title: "Whindersson Nunes em PROPAROXÍTONA - Show Completo",
-        
-        // Visual YouTube
-        skin: "youtube",
-        lang: "pt",
-        color: "#FF0000",
-        autoplay: 1, // 1 =inicia sozinho
-        hotkeys: 1,
-        fluid: true,
-        
-        // Como é MP4, não precisa de config HLS
-        // Mas se travar, pode forçar pré-carregamento:
-        preload: "auto" // Carrega o vídeo antes de dar play
-    });
-</script>
-
-</body>
-</html>
+</video-player>
