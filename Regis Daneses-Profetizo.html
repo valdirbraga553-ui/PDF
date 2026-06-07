@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Regis Daneses-Profetizo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: #800000;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .player {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .cover {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    h3 {
+      margin: 15px 0 5px;
+    }
+
+    .controls {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      padding: 8px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+
+    li:hover {
+      background-color: #282828;
+    }
+
+    .playing {
+      background-color: #1db954;
+      color: black;
+      font-weight: bold;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<style="background-color:#000033;color:#FFFFFF;">
+<body>
+
+  <div class="player">
+<img id="cover" src="https://via.placeholder.com/300x300?text=Capa" class="cover">
+    <h3 id="title">Título da música</h3>
+
+    <audio id="audio" controls autoplay></audio>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script>
+    const tracks = [
+      {
+        title: "01-Combate",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Combate%20%5BXEJITGUp4k4%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "02-Creia nos Teus Profetas",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Creia%20nos%20Teus%20Profetas%20%5BG7DZdVgA6GM%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "03-Dracma Perdida",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Dracma%20Perdida%20%5BGcsFzX3HFQs%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "04-Ele Se Importa Comigo",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Ele%20Se%20Importa%20Comigo%20%5BxA2-jh8e0PY%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "05-Festa do Rei",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Festa%20do%20Rei%20%5Bp-sUQrrWnVk%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "06-Filho Pródigo",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Filho%20Pr%C3%B3digo%20%5BJLFRouobzFY%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "07-Lâmpada para os Meus Pés",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/L%C3%A2mpada%20para%20os%20Meus%20P%C3%A9s%20%5BQREyDy8gR-E%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "08-Os Meus Sonhos não Morreram",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Os%20Meus%20Sonhos%20n%C3%A3o%20Morreram%20%5BqaE-pZ10_GA%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "09-Porque Ele Escolheu me Amar",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Porque%20Ele%20Escolheu%20me%20Amar%20%5BI6Yzbs5NbK8%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "10-Profetizo",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Regis%20Danese%20-%20Profetizo%20%28Clipe%20Oficial%20MK%20Music%20em%20HD%29%20%5BSVlRgQunSf0%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "11-Profetizo - Remix",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Profetizo%20-%20Remix%20%5BEebwOrs38bM%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "12-Tesouros Eternos",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Tesouros%20Eternos%20%5BIpWAk9UvcU4%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "13-Teu Sacrifício",
+        file: "https://archive.org/download/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/Teu%20Sacrif%C3%ADcio%20%5BJTdYElAVXqk%5D.mp3",
+        cover: "https://ia600907.us.archive.org/13/items/os-meus-sonhos-nao-morreram-qa-e-p-z-10-ga/cd_profetizo_regis-danese_itemimage.png"
+      },
+{
+        title: "💿Lançamento ©2014",
+        file: "",
+        cover: "https://4br.me/regiscapa1"
+      }
+      
+      // Adicione mais faixas se quiser
+    ];
+
+    const audio = document.getElementById("audio");
+    const playlistEl = document.getElementById("playlist");
+    const titleEl = document.getElementById("title");
+    const coverEl = document.getElementById("cover");
+
+    let current = 0;
+
+    function loadTrack(index) {
+const track = tracks[index];
+      audio.src = track.file;
+      titleEl.textContent = track.title;
+      coverEl.src = track.cover;
+      highlightCurrent(index);
+    }
+
+    function highlightCurrent(index) {
+      [...playlistEl.children].forEach((li, i) => {
+        li.className = i === index ? "playing" : "";
+      });
+    }
+
+    function buildPlaylist() {
+      tracks.forEach((track, index) => {
+        const li = document.createElement("li");
+        li.textContent = track.title;
+        li.onclick = () => {
+          current = index;
+          loadTrack(current);
+          audio.play();
+        };
+        playlistEl.appendChild(li);
+      });
+    }
+
+    audio.addEventListener("ended", () => {
+      current = (current + 1) % tracks.length;
+      loadTrack(current);
+      audio.play();
+    });
+
+    buildPlaylist();
+    loadTrack(current);
+  </script>
+
+</body>
+</html>
