@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rádios</title>
+  <style>
+    body {
+      margin: 0;
+      background: #800000;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .player {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .cover {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    h3 {
+      margin: 15px 0 5px;
+    }
+
+    .controls {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      padding: 8px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+
+    li:hover {
+      background-color: #282828;
+    }
+
+    .playing {
+      background-color: #1db954;
+      color: black;
+      font-weight: bold;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<style="background-color:#000033;color:#FFFFFF;">
+<body>
+
+  <div class="player">
+<img id="cover" src="https://via.placeholder.com/300x300?text=Capa" class="cover">
+    <h3 id="title">Título da música</h3>
+
+    <audio id="audio" controls autoplay></audio>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script>
+    const tracks = [
+      {
+        title: "01-Plus FM",
+        file: " https://webradio.amsolution.com.br/radio/8150/paraipaba",
+        cover: "https://www.appcreator24.com/srv/imgs/temp/f7kl5w3oau_1.png?ts=1781138858"
+      },
+{
+        title: "02-Web Rádio Louvor JA",
+        file: "https://stream.zeno.fm/am6c7yjjh82vv",
+        cover: "https://www.appcreator24.com/srv/imgs/temp/mr56hwcd2v_1.png?ts=1781140072"
+      },
+{
+        title: "03-Jovem Pan",
+        file: " https://streaming.livespanel.com:8060/stream",
+        cover: "https://4br.me/fundoredblack"
+      },
+{
+        title: "04-Rádio Novo Tempo",
+        file: " https://streamradio.novotempo.com/CDN-RADIO-PT/smil:radionovotempo.smil/playlist.m3u8",
+        cover: " https://www.appcreator24.com/srv/imgs/temp/qymiovt0pj_1.png?ts=1781140350"
+      },
+{
+        title: "05-Web Rádio Bíblia Narrada-Cid",
+        file: "https://stm3.voxhd.com.br:8062/stream",
+        cover: "https://www.appcreator24.com/srv/imgs/temp/p2kxaz8ro3_1.png?ts=1781140480"
+      },
+{
+        title: "06-Lider FM 98.7",
+        file: "https://stream.jmhost.com.br/radio/8450/radio",
+        cover: "https://www.appcreator24.com/srv/imgs/temp/mvzbrk6u2a_1.png?ts=1781140623"
+      }
+      
+      // Adicione mais faixas se quiser
+    ];
+
+    const audio = document.getElementById("audio");
+    const playlistEl = document.getElementById("playlist");
+    const titleEl = document.getElementById("title");
+    const coverEl = document.getElementById("cover");
+
+    let current = 0;
+
+    function loadTrack(index) {
+const track = tracks[index];
+      audio.src = track.file;
+      titleEl.textContent = track.title;
+      coverEl.src = track.cover;
+      highlightCurrent(index);
+    }
+
+    function highlightCurrent(index) {
+      [...playlistEl.children].forEach((li, i) => {
+        li.className = i === index ? "playing" : "";
+      });
+    }
+
+    function buildPlaylist() {
+      tracks.forEach((track, index) => {
+        const li = document.createElement("li");
+        li.textContent = track.title;
+        li.onclick = () => {
+          current = index;
+          loadTrack(current);
+          audio.play();
+        };
+        playlistEl.appendChild(li);
+      });
+    }
+
+    audio.addEventListener("ended", () => {
+      current = (current + 1) % tracks.length;
+      loadTrack(current);
+      audio.play();
+    });
+
+    buildPlaylist();
+    loadTrack(current);
+  </script>
+
+</body>
+</html>
